@@ -1,0 +1,39 @@
+body {
+    background: #fff;
+    color: #fff;
+}
+a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+.main {
+    display : block;
+    width : 1000px;
+    overflow : auto;
+    margin: 0 auto;
+}
+.pageHeader{
+    background-color : rgba(128, 0, 0, 0.5);
+    float : left;
+    clear : none;
+    height : 100px;
+    width : 1000px;
+}
+
+.pageContent{
+    background-color : rgba(0, 0, 128, 0.5);
+    float : left;
+    clear : none;
+    height : 500px;
+    width : 1000px;
+}
+
+.pageFooter{
+    background-color : rgba(0, 128, 128, 0.5);
+    float : left;
+    clear : none;
+    height : 100px;
+    width : 1000px;
+}
